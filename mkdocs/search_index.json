@@ -1,0 +1,194 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "code.kx.com\n\n\nDownload\n a free 32-bit version of kdb+. \n\n\nGet started\n with our tutorials. \nInstall kdb+\n. Learn the functional q language and its SQL-like handling of tables and dictionaries. Discover the interpreter\ns powers, documented in the \nReference\n section.\n\n\nBuild systems\n In our Developer section, find cookbooks for building systems, and our \nDeveloper Briefs\n for advanced designs and performance optimization. \n\n\nFind kdb+ \nutilities and development tools\n in the \nGitHub repositories\n. \n\n\nLook in our \nLibrary\n for articles on kdb+ and links to developer blogs. \n\n\nExplore the \nKx community and events\n to connect with others using kdb+.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#codekxcom", 
+            "text": "Download  a free 32-bit version of kdb+.   Get started  with our tutorials.  Install kdb+ . Learn the functional q language and its SQL-like handling of tables and dictionaries. Discover the interpreter s powers, documented in the  Reference  section.  Build systems  In our Developer section, find cookbooks for building systems, and our  Developer Briefs  for advanced designs and performance optimization.   Find kdb+  utilities and development tools  in the  GitHub repositories .   Look in our  Library  for articles on kdb+ and links to developer blogs.   Explore the  Kx community and events  to connect with others using kdb+.", 
+            "title": "code.kx.com"
+        }, 
+        {
+            "location": "/learn/", 
+            "text": "Download\n\n\nDownload \na free 32-bit version of kdb+\n. \n\n\nInstall\n\n\nInstall\n the free 32-bit version of kdb+ on Windows, Linux or MacOS.\n\n\nTutorials for beginners\n\n\n\n\nThe Basics\n\n\nDatatypes\n\n\nLists\n\n\nFunctions\n\n\nDictionaries\n\n\nTables I\n\n\nTables II\n\n\n\n\nDatabase tutorials\n\n\nA brief introduction to kdb+\n is a very quick overview of downloading kdb+ and running your first query.\n\n\nSample queries\n has you build a more complex dataset in memory and perform some queries and joins on it. The dataset is from an imaginary desktop PC monitoring and helpdesk support system.\n\n\nOn-disk queries\n has you download a set of scripts to build and run queries against a large on-disk database. The dataset is from an imaginary smart-meter network. It includes a basic HTML5 Business Intelligence tool which queries the database directly.\n\n\nKdb+ for Mortals\n, Chapter 1\n by Jeffry A. Borror, gives a detailed explanation of how kdb+ databases are created, stored on disk and accessed from q.\n\n\nBooks\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQ for Mortals Version 3\n by Jeffry A. Borror, available from \nAmazon.com\n or \nAmazon.co.uk\n. Covers up to kdb+ version 3.3. If you are a new kdb+ user, this is the book for you! \nChapter 1: Q Shock and Awe\n is an excerpt.\n\n\n\n\n\n\n\n\nQ Tips: Fast, scalable and maintainable kdb+\n by Nick Psaris, available from \nAmazon.co.uk\n. \n*****\n There is information that if you are learning by yourself, would take years to work out.\n (review)\n\n\n\n\n\n\n\n\nSee the \nLibrary archive\n for older documents.\n\n\nPlease send comments on tutorials to \n.", 
+            "title": "Get started"
+        }, 
+        {
+            "location": "/learn/#download", 
+            "text": "Download  a free 32-bit version of kdb+ .", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/learn/#install", 
+            "text": "Install  the free 32-bit version of kdb+ on Windows, Linux or MacOS.", 
+            "title": "Install"
+        }, 
+        {
+            "location": "/learn/#tutorials-for-beginners", 
+            "text": "The Basics  Datatypes  Lists  Functions  Dictionaries  Tables I  Tables II", 
+            "title": "Tutorials for beginners"
+        }, 
+        {
+            "location": "/learn/#database-tutorials", 
+            "text": "A brief introduction to kdb+  is a very quick overview of downloading kdb+ and running your first query.  Sample queries  has you build a more complex dataset in memory and perform some queries and joins on it. The dataset is from an imaginary desktop PC monitoring and helpdesk support system.  On-disk queries  has you download a set of scripts to build and run queries against a large on-disk database. The dataset is from an imaginary smart-meter network. It includes a basic HTML5 Business Intelligence tool which queries the database directly.  Kdb+ for Mortals , Chapter 1  by Jeffry A. Borror, gives a detailed explanation of how kdb+ databases are created, stored on disk and accessed from q.", 
+            "title": "Database tutorials"
+        }, 
+        {
+            "location": "/learn/#books", 
+            "text": "Q for Mortals Version 3  by Jeffry A. Borror, available from  Amazon.com  or  Amazon.co.uk . Covers up to kdb+ version 3.3. If you are a new kdb+ user, this is the book for you!  Chapter 1: Q Shock and Awe  is an excerpt.     Q Tips: Fast, scalable and maintainable kdb+  by Nick Psaris, available from  Amazon.co.uk .  *****  There is information that if you are learning by yourself, would take years to work out.  (review)     See the  Library archive  for older documents.  Please send comments on tutorials to  .", 
+            "title": "Books"
+        }, 
+        {
+            "location": "/reference/", 
+            "text": "Symbols\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n()\n\n\nprecedence/list/table\n\n\n[]\n\n\nblock/arguments\n\n\n{}\n\n\nfunction\n\n\n\n\n\n\n=\n\n\nequal\n\n\n\n\nnot equal\n\n\n\n\nless/greater..\n\n\n\n\n\n\n+\n\n\nplus\n\n\n-\n\n\nminus\n\n\n*\n\n\ntimes\n\n\n\n\n\n\n%\n\n\ndivided by\n\n\n;\n\n\nseparator\n\n\n`\n\n\nsymbol\n\n\n\n\n\n\n?\n\n\nfind/rand/select/exec\n\n\n.\n\n\nindex/apply/\ntrap\n\n\n@\n\n\nindex/apply/\ntrap\n\n\n\n\n\n\n^\n\n\nfill/coalesce\n\n\n$\n\n\ncond/cast/enum..\n\n\n~\n\n\nmatch\n\n\n\n\n\n\n#\n\n\ntake\n\n\n_\n\n\ndrop/cut\n\n\n,\n\n\njoin\n\n\n\n\n\n\n!\n\n\ndict/update/delete\n\n\n|\n\n\nmax\n\n\n\n\nmin\n\n\n\n\n\n\n/\n\n\ncomment/over/converge\n\n\n\\\n\n\nabort/scan/iterate\n\n\n\\\\\n\n\nquit\n\n\n\n\n\n\n/:\n\n\neach right\n\n\n\\:\n\n\neach left\n\n\n':\n\n\neach prior/peach\n\n\n\n\n\n\n'\n\n\nsignal/each both\n\n\n:\n\n\namend/return\n\n\n::\n\n\ngeneric null/global amend\n\n\n\n\n\n\n\n\nNumbers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0:\n\n\nprepare/save/load text\n\n\n\n\n\n\n1:\n\n\nbinary/save binary\n\n\n\n\n\n\n2:\n\n\ndynamic load\n\n\n\n\n\n\n1\n, \n-1\n\n\nwrite to stdout\n\n\n\n\n\n\n2\n, \n-2\n\n\nwrite to stderr\n\n\n\n\n\n\nn\n, \n-n\n\n\nsend to handle\n\n\n\n\n\n\n\n\nReserved names\n\n\nReserved names denote primitive q constants, verbs and adverbs.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA\n\n\nabs\n, \nacos\n, \naj\n, \naj0\n, \nall\n, \nand\n, \nany\n, \nasc\n, \nasin\n, \nasof\n, \natan\n, \nattr\n, \navg\n, \navgs\n\n\n\n\n\n\nB\n\n\nbin\n, \nbinr\n\n\n\n\n\n\nC\n\n\nceiling\n, \ncols\n, \ncor\n, \ncos\n, \ncount\n, \ncov\n, \ncross\n, \ncsv\n, \ncut\n\n\n\n\n\n\nD\n\n\ndelete\n, \ndeltas\n, \ndesc\n, \ndev\n, \ndiffer\n, \ndistinct\n, \ndiv\n, \ndo\n, \ndsave\n\n\n\n\n\n\nE\n\n\neach\n, \nej\n, \nema\n, \nenlist\n, \neval\n, \nexcept\n, \nexec\n, \nexit\n, \nexp\n\n\n\n\n\n\nF\n\n\nfby\n, \nfills\n, \nfirst\n, \nfkeys\n, \nflip\n, \nfloor\n\n\n\n\n\n\nG\n\n\nget\n, \ngetenv\n, \ngroup\n, \ngtime\n\n\n\n\n\n\nH\n\n\nhclose\n, \nhcount\n, \nhdel\n, \nhopen\n, \nhsym\n\n\n\n\n\n\nI\n\n\niasc\n, \nidesc\n, \nif\n, \nij\n, \nin\n, \ninsert\n, \ninter\n, \ninv\n\n\n\n\n\n\nK\n\n\nkey\n, \nkeys\n\n\n\n\n\n\nL\n\n\nlast\n, \nlike\n, \nlj\n, \nljf\n, \nload\n, \nlog\n, \nlower\n, \nlsq\n, \nltime\n, \nltrim\n\n\n\n\n\n\nM\n\n\nmavg\n, \nmax\n, \nmaxs\n, \nmcount\n, \nmd5\n, \nmdev\n, \nmed\n, \nmeta\n, \nmin\n, \nmins\n, \nmmax\n, \nmmin\n, \nmmu\n, \nmod\n, \nmsum\n\n\n\n\n\n\nN\n\n\nneg\n, \nnext\n, \nnot\n, \nnull\n\n\n\n\n\n\nO\n\n\nor\n, \nover\n\n\n\n\n\n\nP\n\n\nparse\n, \npeach\n, \npj\n, \nprd\n, \nprds\n, \nprev\n, \nprior\n\n\n\n\n\n\nR\n\n\nrand\n, \nrank\n, \nratios\n, \nraze\n, \nread0\n, \nread1\n, \nreciprocal\n, \nreval\n, \nreverse\n, \nrload\n, \nrotate\n, \nrsave\n, \nrtrim\n\n\n\n\n\n\nS\n\n\nsave\n, \nscan\n, \nscov\n, \nsdev\n, \nselect\n, \nset\n, \nsetenv\n, \nshow\n, \nsignum\n, \nsin\n, \nsqrt\n, \nss\n, \nssr\n, \nstring\n, \nsublist\n, \nsum\n, \nsums\n, \nsv\n, \nsvar\n, \nsystem\n\n\n\n\n\n\nT\n\n\ntables\n, \ntan\n, \ntil\n, \ntrim\n, \ntype\n\n\n\n\n\n\nU\n\n\nuj\n, \nungroup\n, \nunion\n, \nupdate\n, \nupper\n, \nupsert\n\n\n\n\n\n\nV\n\n\nvalue\n, \nvar\n, \nview\n, \nviews\n, \nvs\n\n\n\n\n\n\nW\n\n\nwavg\n, \nwhere\n, \nwhile\n, \nwithin\n, \nwj\n, \nwj1\n, \nwsum\n, \nww\n\n\n\n\n\n\nX\n\n\nxasc\n, \nxbar\n, \nxcol\n, \nxcols\n, \nxdesc\n, \nxexp\n, \nxgroup\n, \nxkey\n, \nxlog\n, \nxprev\n, \nxrank\n\n\n\n\n\n\n\n\nNamespaces\n\n\nWatch out\n \nAll\n single-letter namespaces (both upper- and lower-case) are reserved for Kx use and should not be used to contain user-written code or data.\n\n\n.h\n\n\nfor functions in the \n.h\n namespace see the \n.h unreference\n\n\n.Q\n\n\nfor functions in the \n.Q\n namespace see the \n.Q unreference\n\n\n.z\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.z.a\n\n\naddress\n\n\n.z.ac\n\n\nauth from cookie\n\n\n\n\n\n\n.z.b\n\n\ndependencies\n\n\n.z.bm\n\n\nbad message\n\n\n\n\n\n\n.z.c\n\n\nphysical core count\n\n\n.z.e\n\n\ntls connection status\n\n\n\n\n\n\n.z.exit\n\n\naction on exit\n\n\n.z.f\n\n\nfile\n\n\n\n\n\n\n.z.h\n\n\nhost\n\n\n.z.i\n\n\nPID\n\n\n\n\n\n\n.z.k\n\n\nrelease date\n\n\n.z.K\n\n\nversion\n\n\n\n\n\n\n.z.l\n\n\nlicense\n\n\n.z.n\n\n\ngmt (timespan)\n\n\n\n\n\n\n.z.N\n\n\nlocal (timespan)\n\n\n.z.o\n\n\nOS\n\n\n\n\n\n\n.z.p\n\n\ngmt (timestamp)\n\n\n.z.P\n\n\nlocal (timestamp)\n\n\n\n\n\n\n.z.pc\n\n\nclose\n\n\n.z.pg\n\n\nget\n\n\n\n\n\n\n.z.pd\n\n\npeach handles\n\n\n.z.ph\n\n\nhttp get\n\n\n\n\n\n\n.z.pi\n\n\ninput\n\n\n.z.pm\n\n\nhttp OPTIONS method\n\n\n\n\n\n\n.z.po\n\n\nopen\n\n\n.z.pp\n\n\nhttp post\n\n\n\n\n\n\n.z.ps\n\n\nset\n\n\n.z.pw\n\n\nvalidate user\n\n\n\n\n\n\n.z.q\n\n\nquiet mode\n\n\n.z.s\n\n\nself\n\n\n\n\n\n\n.z.ts\n\n\ntimer\n\n\n.z.u\n\n\nuserid\n\n\n\n\n\n\n.z.vs\n\n\nvalue set\n\n\n.z.w\n\n\nhandle\n\n\n\n\n\n\n.z.wc\n\n\nwebsocket close\n\n\n.z.wo\n\n\nwebsocket open\n\n\n\n\n\n\n.z.W\n\n\nhandles\n\n\n.z.ws\n\n\nwebsockets\n\n\n\n\n\n\n.z.x\n\n\nargv\n\n\n.z.X\n\n\nraw command line\n\n\n\n\n\n\n.z.z\n\n\ngmt time (datetime)\n\n\n.z.Z\n\n\nlocal time (datetime)\n\n\n\n\n\n\n.z.[tTdD]\n\n\ntime/date shortcuts\n\n\n.z.zd\n\n\nzip defaults\n\n\n\n\n\n\n\n\nCommand-line options and system commands\n\n\nSummaries of \ncommand-line options\n and \nsystem commands\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\a\n\n\ntables\n\n\n-b\n\n\nblock client write access\n\n\n\n\n\n\n\\b\n\n\nviews\n\n\n\\B\n\n\npending views\n\n\n\n\n\n\n-c\n, \n\\c\n\n\nq console size\n\n\n-C\n, \n\\C\n\n\nweb console size\n\n\n\n\n\n\n\\cd\n\n\ncurrent directory\n\n\n\\d\n\n\nnamespace\n\n\n\n\n\n\n\\e\n\n\nerror trap clients\n\n\n-E\n\n\nTLS server mode\n\n\n\n\n\n\n\\f\n\n\nfunctions\n\n\n-g\n, \n\\g\n\n\ngarbage collect\n\n\n\n\n\n\n-[lL]\n\n\nlog updates\n\n\n\\l\n\n\nload\n\n\n\n\n\n\n-o\n, \n\\o\n\n\nlocal time offset\n\n\n-p\n, \n\\p\n\n\nport\n\n\n\n\n\n\n-P\n, \n\\P\n\n\nfloat precision\n\n\n-q\n\n\nquiet\n\n\n\n\n\n\n-r\n\n\nreplicate from host/post\n\n\n\\r\n\n\nreplication master\n\n\n\n\n\n\n\\r\n\n\nrename file\n\n\n-s\n\n\nuse slaves\n\n\n\n\n\n\n\\s\n\n\nnumber of slaves\n\n\n-S\n, \n\\S\n\n\nprng seed\n\n\n\n\n\n\n\\t\n\n\ntime expression\n\n\n-t\n, \n\\t\n\n\ntimer\n\n\n\n\n\n\n-T\n, \n\\T\n\n\ntimeout\n\n\n\\ts\n\n\ntime and space of expression\n\n\n\n\n\n\n-u 1\n\n\ndisable system exits\n\n\n\\u\n\n\nreload password file\n\n\n\n\n\n\n-[uU]\n\n\nusr:pwd file\n\n\n\\v\n\n\nvariables\n\n\n\n\n\n\n-w\n, \n\\w\n\n\nworkspace size\n\n\n-W\n, \n\\W\n\n\nweek offset\n\n\n\n\n\n\n\\x\n\n\nexpunge handler\n\n\n-z\n, \n\\z\n\n\ndate format\n\n\n\n\n\n\n\\1\n, \n\\2\n\n\nredirect stdout/stderr\n\n\n\\_\n\n\nhide q code\n\n\n\n\n\n\n\n\nOther reference pages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nadverbs\n\n\nassociations and dictionaries\n\n\n\n\n\n\natoms and lists\n\n\nboolean shifts and scans\n\n\n\n\n\n\n!\n internal functions\n\n\nconsole size\n\n\n\n\n\n\ndatatypes\n\n\ndisplay precision\n\n\n\n\n\n\ncommon errors\n\n\nfunctions\n\n\n\n\n\n\ngrammar\n\n\nglossary\n\n\n\n\n\n\nidioms\n \n after \nEugene McDonnell\ns k idioms\n\n\nIPC protocol\n\n\n\n\n\n\njoins\n\n\nlanguage\n\n\n\n\n\n\nnouns\n\n\npar.txt\n\n\n\n\n\n\nparse trees\n\n\npivot tables\n\n\n\n\n\n\nsyntax\n\n\ntable\n\n\n\n\n\n\nverbs\n\n\nviews", 
+            "title": "Reference"
+        }, 
+        {
+            "location": "/reference/#symbols", 
+            "text": "()  precedence/list/table  []  block/arguments  {}  function    =  equal   not equal   less/greater..    +  plus  -  minus  *  times    %  divided by  ;  separator  `  symbol    ?  find/rand/select/exec  .  index/apply/ trap  @  index/apply/ trap    ^  fill/coalesce  $  cond/cast/enum..  ~  match    #  take  _  drop/cut  ,  join    !  dict/update/delete  |  max   min    /  comment/over/converge  \\  abort/scan/iterate  \\\\  quit    /:  each right  \\:  each left  ':  each prior/peach    '  signal/each both  :  amend/return  ::  generic null/global amend", 
+            "title": "Symbols"
+        }, 
+        {
+            "location": "/reference/#numbers", 
+            "text": "0:  prepare/save/load text    1:  binary/save binary    2:  dynamic load    1 ,  -1  write to stdout    2 ,  -2  write to stderr    n ,  -n  send to handle", 
+            "title": "Numbers"
+        }, 
+        {
+            "location": "/reference/#reserved-names", 
+            "text": "Reserved names denote primitive q constants, verbs and adverbs.           A  abs ,  acos ,  aj ,  aj0 ,  all ,  and ,  any ,  asc ,  asin ,  asof ,  atan ,  attr ,  avg ,  avgs    B  bin ,  binr    C  ceiling ,  cols ,  cor ,  cos ,  count ,  cov ,  cross ,  csv ,  cut    D  delete ,  deltas ,  desc ,  dev ,  differ ,  distinct ,  div ,  do ,  dsave    E  each ,  ej ,  ema ,  enlist ,  eval ,  except ,  exec ,  exit ,  exp    F  fby ,  fills ,  first ,  fkeys ,  flip ,  floor    G  get ,  getenv ,  group ,  gtime    H  hclose ,  hcount ,  hdel ,  hopen ,  hsym    I  iasc ,  idesc ,  if ,  ij ,  in ,  insert ,  inter ,  inv    K  key ,  keys    L  last ,  like ,  lj ,  ljf ,  load ,  log ,  lower ,  lsq ,  ltime ,  ltrim    M  mavg ,  max ,  maxs ,  mcount ,  md5 ,  mdev ,  med ,  meta ,  min ,  mins ,  mmax ,  mmin ,  mmu ,  mod ,  msum    N  neg ,  next ,  not ,  null    O  or ,  over    P  parse ,  peach ,  pj ,  prd ,  prds ,  prev ,  prior    R  rand ,  rank ,  ratios ,  raze ,  read0 ,  read1 ,  reciprocal ,  reval ,  reverse ,  rload ,  rotate ,  rsave ,  rtrim    S  save ,  scan ,  scov ,  sdev ,  select ,  set ,  setenv ,  show ,  signum ,  sin ,  sqrt ,  ss ,  ssr ,  string ,  sublist ,  sum ,  sums ,  sv ,  svar ,  system    T  tables ,  tan ,  til ,  trim ,  type    U  uj ,  ungroup ,  union ,  update ,  upper ,  upsert    V  value ,  var ,  view ,  views ,  vs    W  wavg ,  where ,  while ,  within ,  wj ,  wj1 ,  wsum ,  ww    X  xasc ,  xbar ,  xcol ,  xcols ,  xdesc ,  xexp ,  xgroup ,  xkey ,  xlog ,  xprev ,  xrank", 
+            "title": "Reserved names"
+        }, 
+        {
+            "location": "/reference/#namespaces", 
+            "text": "Watch out   All  single-letter namespaces (both upper- and lower-case) are reserved for Kx use and should not be used to contain user-written code or data.", 
+            "title": "Namespaces"
+        }, 
+        {
+            "location": "/reference/#h", 
+            "text": "for functions in the  .h  namespace see the  .h unreference", 
+            "title": ".h"
+        }, 
+        {
+            "location": "/reference/#q", 
+            "text": "for functions in the  .Q  namespace see the  .Q unreference", 
+            "title": ".Q"
+        }, 
+        {
+            "location": "/reference/#z", 
+            "text": ".z.a  address  .z.ac  auth from cookie    .z.b  dependencies  .z.bm  bad message    .z.c  physical core count  .z.e  tls connection status    .z.exit  action on exit  .z.f  file    .z.h  host  .z.i  PID    .z.k  release date  .z.K  version    .z.l  license  .z.n  gmt (timespan)    .z.N  local (timespan)  .z.o  OS    .z.p  gmt (timestamp)  .z.P  local (timestamp)    .z.pc  close  .z.pg  get    .z.pd  peach handles  .z.ph  http get    .z.pi  input  .z.pm  http OPTIONS method    .z.po  open  .z.pp  http post    .z.ps  set  .z.pw  validate user    .z.q  quiet mode  .z.s  self    .z.ts  timer  .z.u  userid    .z.vs  value set  .z.w  handle    .z.wc  websocket close  .z.wo  websocket open    .z.W  handles  .z.ws  websockets    .z.x  argv  .z.X  raw command line    .z.z  gmt time (datetime)  .z.Z  local time (datetime)    .z.[tTdD]  time/date shortcuts  .z.zd  zip defaults", 
+            "title": ".z"
+        }, 
+        {
+            "location": "/reference/#command-line-options-and-system-commands", 
+            "text": "Summaries of  command-line options  and  system commands             \\a  tables  -b  block client write access    \\b  views  \\B  pending views    -c ,  \\c  q console size  -C ,  \\C  web console size    \\cd  current directory  \\d  namespace    \\e  error trap clients  -E  TLS server mode    \\f  functions  -g ,  \\g  garbage collect    -[lL]  log updates  \\l  load    -o ,  \\o  local time offset  -p ,  \\p  port    -P ,  \\P  float precision  -q  quiet    -r  replicate from host/post  \\r  replication master    \\r  rename file  -s  use slaves    \\s  number of slaves  -S ,  \\S  prng seed    \\t  time expression  -t ,  \\t  timer    -T ,  \\T  timeout  \\ts  time and space of expression    -u 1  disable system exits  \\u  reload password file    -[uU]  usr:pwd file  \\v  variables    -w ,  \\w  workspace size  -W ,  \\W  week offset    \\x  expunge handler  -z ,  \\z  date format    \\1 ,  \\2  redirect stdout/stderr  \\_  hide q code", 
+            "title": "Command-line options and system commands"
+        }, 
+        {
+            "location": "/reference/#other-reference-pages", 
+            "text": "adverbs  associations and dictionaries    atoms and lists  boolean shifts and scans    !  internal functions  console size    datatypes  display precision    common errors  functions    grammar  glossary    idioms    after  Eugene McDonnell s k idioms  IPC protocol    joins  language    nouns  par.txt    parse trees  pivot tables    syntax  table    verbs  views", 
+            "title": "Other reference pages"
+        }, 
+        {
+            "location": "/developer/", 
+            "text": "Basics\n\n\n\n\nInteractive help\n\n\nFrequently-asked questions\n from the listbox\n\n\nUsing kdb+\n\n\nClient-server programming\n\n\nCustomising the kdb+ webserver\n\n\nDaemonizing q on Linux\n\n\nPerformance tips\n\n\nProgramming examples\n\n\nProgramming idioms\n\n\nReporting bugs in Kx products\n\n\nRunning q as service on Windows\n\n\nMore about tables\n\n\nUnit testing\n\n\nUsing disk logging\n\n\n\n\nBriefs\n\n\nThe Developer Briefs originally appeared as the \nq for Gods\n series of white papers from \nFirst Derivatives\n.\n\n\n\n\nA natural query interface for distribution systems\n\n\nAn introduction to graphical interfaces for kdb+ using C#\n\n\nAn introduction to neural networks with kdb+\n\n\nBuilding realtime tick subscribers\n\n\nColumnar database and query optimization\n\n\nCommon design principles for kdb+ gateways\n\n\nCompression in kdb+\n\n\nData recovery for kdb+ tick\n\n\nEfficient use of adverbs\n\n\nIntraday writedown solutions\n\n\nintroduction to strategy back testing in q\n\n\nKdb+ and FIX messaging\n\n\nKdb+ and WebSockets\n\n\nKdb+ data-management sample customisation techniques\n\n\nKdb+ query scaling\n\n\nKdb+tick profiling for throughput optimization\n\n\nMarketing Fragmentation: a kdb+ framework for Multiple Liquid Source\n\n\nMulti-partitioned kdb+ databases: an equity options case study\n\n\nMultithreading in kdb+: performance optimisations and use cases\n\n\nOrder Book: a kdb+ intra-day storage and access methodology\n\n\nParse trees and functional forms\n\n\nPermissions with kdb+\n\n\nQuery Routing: a kdb+ framework for a scalable load-balanced system\n\n\nSample aggregation engine for market depth\n\n\nSurveillance techniques to effectively monitor algo and high-frequency trading\n\n\nTemporal Data: a kdb+ framework for corporate actions\n\n\nThe application of foreign keys and linked columns in kdb+\n\n\nTime-series simplification in kdb+: a method for dynamically shrinking Big Data\n\n\nTransaction-cost analysis using kdb+\n\n\n\n\nBig Data\n\n\n\n\nChanging the scheme of a splayed table\n\n\nDatabase partitioning with par.txt\n\n\nA load-balancing server\n\n\nLoading and exporting with bcp\n\n\nLoading large CSV files\n\n\nSplayed tables\n\n\nSplaying large CSV files\n\n\nTemporal data\n\n\n\n\nTick\n\n\n\n\nBasic example of kdb+tick\n\n\nPublish and subscribe\n\n\nDifferent ways of working with kdb+tick\n\n\nChained tickerplant and rdb for kdb+tick\n\n\nWrite-only alternative to rdb for kdb+tick\n\n\nAlternative in-memory layouts\n\n\nUtility scripts and example schemas (some examples may need to change time types to timespan)\n\n\n\n\nHow-tos\n\n\n\n\nCallbacks in q\n\n\nFloat precision and equality\n\n\nLinking columns\n\n\n\n\nForeign interfaces\n\n\n\n\nManaged ADO.Net provider for kdb+\n\n\nInterfacing with C\n\n\nExtending with C\n\n\nInterfacing with C#\n\n\nUsing kdb+ with Eclipse\n\n\nIntegrating With Excel\n\n\nInterfacing with the Expat XML parser\n\n\nInterfacing with F#\n\n\nInterfacing with Flex\n\n\nIntegrating with Fortran\n\n\nInterfacing with Go\n\n\nInterfacing with GPUs\n\n\nIntegrating with J\n See Also \nJwiki/Interfaces\n\n\nInterfacing with Java\n\n\nInterfacing with Javascript\n and \nWebsockets\n\n\nInterfacing With LAPACK, Cephes and FDLIBM\n\n\nInterfacing with Lua\n\n\nMathematica\n\n\nIntegrating with Matlab\n\n\nInterfacing with NodeJS\n\n\nIntferacing with Node.js\n\n\nInterfacing with ODBC\n\n\nInterfacing with Perl\n\n\nInterfacing with PHP\n\n\nIntegrating with Python\n\n\nIntegrating with R\n\n\nInterfacing with Scala\n\n\n\n\nInterprocess communication (IPC)\n\n\n\n\nStarting kdb+: IPC\n\n\nIPC in a nutshell\n\n\nThe C IPC interface\n\n\nAsync callbacks\n\n\nhopen\n examples\n\n\nIPC protocol and message format\n\n\nQ4M2 IPC\n\n\nServer calling the client\n\n\nUsing Modified \n.z\n functions to trace, monitor and control execution\n\n\n\n\nExxeleron repositories on GitHub\n\n\n\n\nenterprise-components\n Enterprise Components\n\n\nqErlang\n Erlang interface\n\n\nqJava\n Java interface\n\n\nqPython\n Pure Python interface\n\n\nqSharp\n C# interface\n\n\nqXL\n Excel Interface\n\n\n\n\nGitHub repositories\n\n\nSee the \nkdb+ GitHub repository index\n.\n\n\nUtilities\n\n\n\n\nBabel for kdb+\n\n\ncmd.exe\n replacement for Windows users\n\n\nCompacting hdb sym enum files\n\n\ndotz, using modified \n.z\n functions\n\n\nQ by examples\n\n\nQ compared to other languages\n\n\nStudio for kdb+\n\n\nUser-contributed code\n\n\n\n\nMiscellaneous\n\n\n\n\nAuthentication and access control\n\n\nBloomberg feed handler\n\n\nComparison tolerance\n\n\nCorporate actions\n\n\nFile compression\n\n\nFirewalling notes\n (before running kdb+ on the Internet)\n\n\nGeospatial\n\n\nKdb+ under inetd/xinetd\n\n\nlog4q\n\n\nMultithreaded input mode\n\n\nNamed pipes\n\n\nProduction notes\n\n\nRegular Expressions (regex)\n\n\nSecure Sockets Layer (SSL) / Transport Layer Security (TLS)\n\n\nTimezones and daylight saving time\n\n\nUnicode\n\n\n\n\nRelease notes / change list\n\n\n\n\nFull change list at \ndownloads.kx.com\n\n\n\n\nVersions \n new features\n\n\n\n\nv2.4\n\n\nv2.5\n\n\nv2.6\n\n\nv2.7\n\n\nv2.8\n\n\nv3.0\n\n\nv3.1\n\n\nv3.2\n\n\nv3.3\n\n\nv3.4", 
+            "title": "Developer"
+        }, 
+        {
+            "location": "/developer/#basics", 
+            "text": "Interactive help  Frequently-asked questions  from the listbox  Using kdb+  Client-server programming  Customising the kdb+ webserver  Daemonizing q on Linux  Performance tips  Programming examples  Programming idioms  Reporting bugs in Kx products  Running q as service on Windows  More about tables  Unit testing  Using disk logging", 
+            "title": "Basics"
+        }, 
+        {
+            "location": "/developer/#briefs", 
+            "text": "The Developer Briefs originally appeared as the  q for Gods  series of white papers from  First Derivatives .   A natural query interface for distribution systems  An introduction to graphical interfaces for kdb+ using C#  An introduction to neural networks with kdb+  Building realtime tick subscribers  Columnar database and query optimization  Common design principles for kdb+ gateways  Compression in kdb+  Data recovery for kdb+ tick  Efficient use of adverbs  Intraday writedown solutions  introduction to strategy back testing in q  Kdb+ and FIX messaging  Kdb+ and WebSockets  Kdb+ data-management sample customisation techniques  Kdb+ query scaling  Kdb+tick profiling for throughput optimization  Marketing Fragmentation: a kdb+ framework for Multiple Liquid Source  Multi-partitioned kdb+ databases: an equity options case study  Multithreading in kdb+: performance optimisations and use cases  Order Book: a kdb+ intra-day storage and access methodology  Parse trees and functional forms  Permissions with kdb+  Query Routing: a kdb+ framework for a scalable load-balanced system  Sample aggregation engine for market depth  Surveillance techniques to effectively monitor algo and high-frequency trading  Temporal Data: a kdb+ framework for corporate actions  The application of foreign keys and linked columns in kdb+  Time-series simplification in kdb+: a method for dynamically shrinking Big Data  Transaction-cost analysis using kdb+", 
+            "title": "Briefs"
+        }, 
+        {
+            "location": "/developer/#big-data", 
+            "text": "Changing the scheme of a splayed table  Database partitioning with par.txt  A load-balancing server  Loading and exporting with bcp  Loading large CSV files  Splayed tables  Splaying large CSV files  Temporal data", 
+            "title": "Big Data"
+        }, 
+        {
+            "location": "/developer/#tick", 
+            "text": "Basic example of kdb+tick  Publish and subscribe  Different ways of working with kdb+tick  Chained tickerplant and rdb for kdb+tick  Write-only alternative to rdb for kdb+tick  Alternative in-memory layouts  Utility scripts and example schemas (some examples may need to change time types to timespan)", 
+            "title": "Tick"
+        }, 
+        {
+            "location": "/developer/#how-tos", 
+            "text": "Callbacks in q  Float precision and equality  Linking columns", 
+            "title": "How-tos"
+        }, 
+        {
+            "location": "/developer/#foreign-interfaces", 
+            "text": "Managed ADO.Net provider for kdb+  Interfacing with C  Extending with C  Interfacing with C#  Using kdb+ with Eclipse  Integrating With Excel  Interfacing with the Expat XML parser  Interfacing with F#  Interfacing with Flex  Integrating with Fortran  Interfacing with Go  Interfacing with GPUs  Integrating with J  See Also  Jwiki/Interfaces  Interfacing with Java  Interfacing with Javascript  and  Websockets  Interfacing With LAPACK, Cephes and FDLIBM  Interfacing with Lua  Mathematica  Integrating with Matlab  Interfacing with NodeJS  Intferacing with Node.js  Interfacing with ODBC  Interfacing with Perl  Interfacing with PHP  Integrating with Python  Integrating with R  Interfacing with Scala", 
+            "title": "Foreign interfaces"
+        }, 
+        {
+            "location": "/developer/#interprocess-communication-ipc", 
+            "text": "Starting kdb+: IPC  IPC in a nutshell  The C IPC interface  Async callbacks  hopen  examples  IPC protocol and message format  Q4M2 IPC  Server calling the client  Using Modified  .z  functions to trace, monitor and control execution", 
+            "title": "Interprocess communication (IPC)"
+        }, 
+        {
+            "location": "/developer/#exxeleron-repositories-on-github", 
+            "text": "enterprise-components  Enterprise Components  qErlang  Erlang interface  qJava  Java interface  qPython  Pure Python interface  qSharp  C# interface  qXL  Excel Interface", 
+            "title": "Exxeleron repositories on GitHub"
+        }, 
+        {
+            "location": "/developer/#github-repositories", 
+            "text": "See the  kdb+ GitHub repository index .", 
+            "title": "GitHub repositories"
+        }, 
+        {
+            "location": "/developer/#utilities", 
+            "text": "Babel for kdb+  cmd.exe  replacement for Windows users  Compacting hdb sym enum files  dotz, using modified  .z  functions  Q by examples  Q compared to other languages  Studio for kdb+  User-contributed code", 
+            "title": "Utilities"
+        }, 
+        {
+            "location": "/developer/#miscellaneous", 
+            "text": "Authentication and access control  Bloomberg feed handler  Comparison tolerance  Corporate actions  File compression  Firewalling notes  (before running kdb+ on the Internet)  Geospatial  Kdb+ under inetd/xinetd  log4q  Multithreaded input mode  Named pipes  Production notes  Regular Expressions (regex)  Secure Sockets Layer (SSL) / Transport Layer Security (TLS)  Timezones and daylight saving time  Unicode", 
+            "title": "Miscellaneous"
+        }, 
+        {
+            "location": "/developer/#release-notes-change-list", 
+            "text": "Full change list at  downloads.kx.com", 
+            "title": "Release notes / change list"
+        }, 
+        {
+            "location": "/developer/#versions-new-features", 
+            "text": "v2.4  v2.5  v2.6  v2.7  v2.8  v3.0  v3.1  v3.2  v3.3  v3.4", 
+            "title": "Versions &ndash; new features"
+        }, 
+        {
+            "location": "/library/", 
+            "text": "Articles\n\n\n\n\nA conversation with Arthur Whitney\n (2009)\n\n\nAn interview with Arthur Whitney\n (2004)\n\n\nArray languages for Lisp programmers\n Slobodan Blazeski, \nVector\n 24#2\n\n\nBoyko Bantchev's K place\n\n\nEnhancing Time Series Data by Applying Bitemporality\n Capgemini\n\n\nFire from Heaven - review of \nQ for Mortals\n Adrian Smith, |\nVector\n 23#4\n\n\nK as a Prototyping Language\n Dennis Shasha\n\n\nK programming language at Wikipedia\n\n\nKnowledge Base/Databases/Kdb\n The Thalesians\n\n\nBook review: \nQ Tips: Fast, scalable and maintainable kdb+\n Yang Guo, |\nVector\n 26#2\n\n\nTables with calculated columns\n Stevan Apter, |\nVector\n 25#1\n\n\nTreetable: a case-study in q\n Stevan Apter, |\nVector\n 24#4\n\n\nVector Processing Languages: The Future of Big Data Analytics and Real-time Business Intelligence\n Conceptual Origami\n\n\n\n\nFinancial Math in Q\n\n\nA series by Jan Karman in \nVector\n (mostly k3 with some k4):\n\n\n\n\nGraduation of mortality\n \nVector\n 24#2\n\n\nThe price of bonds\n \nVector\n 24#4\n\n\nThe annuity\n \nVector\n 25#1\n\n\n\n\nArchive\n\n\n\n\nAbridged q language manual\n, Arthur Whitney, 2009\n\n\nAbridged kdb+ database manual\n, Arthur Whitney, 2006\n\n\nKdb+ database reference manual\n, Don Orth, 2006\n\n\nQ language reference manual\n Don Orth, 2006\n\n\nAbridged kdb+tick manual\n, Arthur Whitney, 2005\n\n\nAbridged kdb+taq manual\n, Arthur Whitney, 2005\n\n\nKdb+ database and language primer\n, Dennis Sasha, 2005\n\n\nQ for Mortals 2nd edn\n, A tutorial in q programming by Jeffry A. Borror. This version covers kdb+ version 2.4, and has been superseded by the book\ns third edition.\n\n\n\n\nWebsites\n\n\n\n\nDennis Shasha\ns research summary\n\n\nGordon Baker\ns professional website\n\n\nJsoftware wiki\n\n\nkdbfaq\n (Jim \n Nate)\n\n\nno stinking loops\n (Stevan Apter)\n\n\n\n\nBlogs\n\n\n\n\nA Programming Language\n (Catherine Lathwell)\n\n\nme, q and kdb+\n (Anne)\n\n\nMilan Ondrus\n\n\nSwee Heng\n\n\nq-ist.com\n (Aaron Davies)", 
+            "title": "Library"
+        }, 
+        {
+            "location": "/library/#articles", 
+            "text": "A conversation with Arthur Whitney  (2009)  An interview with Arthur Whitney  (2004)  Array languages for Lisp programmers  Slobodan Blazeski,  Vector  24#2  Boyko Bantchev's K place  Enhancing Time Series Data by Applying Bitemporality  Capgemini  Fire from Heaven - review of  Q for Mortals  Adrian Smith, | Vector  23#4  K as a Prototyping Language  Dennis Shasha  K programming language at Wikipedia  Knowledge Base/Databases/Kdb  The Thalesians  Book review:  Q Tips: Fast, scalable and maintainable kdb+  Yang Guo, | Vector  26#2  Tables with calculated columns  Stevan Apter, | Vector  25#1  Treetable: a case-study in q  Stevan Apter, | Vector  24#4  Vector Processing Languages: The Future of Big Data Analytics and Real-time Business Intelligence  Conceptual Origami", 
+            "title": "Articles"
+        }, 
+        {
+            "location": "/library/#financial-math-in-q", 
+            "text": "A series by Jan Karman in  Vector  (mostly k3 with some k4):   Graduation of mortality   Vector  24#2  The price of bonds   Vector  24#4  The annuity   Vector  25#1", 
+            "title": "Financial Math in Q"
+        }, 
+        {
+            "location": "/library/#archive", 
+            "text": "Abridged q language manual , Arthur Whitney, 2009  Abridged kdb+ database manual , Arthur Whitney, 2006  Kdb+ database reference manual , Don Orth, 2006  Q language reference manual  Don Orth, 2006  Abridged kdb+tick manual , Arthur Whitney, 2005  Abridged kdb+taq manual , Arthur Whitney, 2005  Kdb+ database and language primer , Dennis Sasha, 2005  Q for Mortals 2nd edn , A tutorial in q programming by Jeffry A. Borror. This version covers kdb+ version 2.4, and has been superseded by the book s third edition.", 
+            "title": "Archive"
+        }, 
+        {
+            "location": "/library/#websites", 
+            "text": "Dennis Shasha s research summary  Gordon Baker s professional website  Jsoftware wiki  kdbfaq  (Jim   Nate)  no stinking loops  (Stevan Apter)", 
+            "title": "Websites"
+        }, 
+        {
+            "location": "/library/#blogs", 
+            "text": "A Programming Language  (Catherine Lathwell)  me, q and kdb+  (Anne)  Milan Ondrus  Swee Heng  q-ist.com  (Aaron Davies)", 
+            "title": "Blogs"
+        }
+    ]
+}

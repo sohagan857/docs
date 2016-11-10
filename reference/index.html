@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Kx Systems">
+        <link rel="canonical" href="http://5jt.github.io/reference/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>Reference - code.kx.com</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">code.kx.com</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../learn/">Get started</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Reference</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../developer/">Developer</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../library/">Library</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../learn/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../developer/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+                    <li>
+                        <a href="https://github.com/5jt/kx">
+                            
+                                <i class="fa fa-github"></i>
+                            
+                            GitHub
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#symbols">Symbols</a></li>
+        
+    
+        <li class="main "><a href="#numbers">Numbers</a></li>
+        
+    
+        <li class="main "><a href="#reserved-names">Reserved names</a></li>
+        
+    
+        <li class="main "><a href="#namespaces">Namespaces</a></li>
+        
+            <li><a href="#h">.h</a></li>
+        
+            <li><a href="#q">.Q</a></li>
+        
+            <li><a href="#z">.z</a></li>
+        
+    
+        <li class="main "><a href="#command-line-options-and-system-commands">Command-line options and system commands</a></li>
+        
+    
+        <li class="main "><a href="#other-reference-pages">Other reference pages</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h2 id="symbols">Symbols</h2>
+<table>
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Parentheses"><code>()</code></a></td>
+<td>precedence/list/table</td>
+<td><a href="http://code.kx.com/wiki/Reference/Brackets"><code>[]</code></a></td>
+<td>block/arguments</td>
+<td><a href="http://code.kx.com/wiki/Reference/CurlyBraces"><code>{}</code></a></td>
+<td>function</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/EqualsSymbol"><code>=</code></a></td>
+<td>equal</td>
+<td><a href="http://code.kx.com/wiki/Reference/LeftRightAngleBracket"><code>&lt;&gt;</code></a></td>
+<td>not equal</td>
+<td><a href="http://code.kx.com/wiki/Reference/Comparatives"><code>&gt;</code></a></td>
+<td>less/greater..</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/PlusSymbol"><code>+</code></a></td>
+<td>plus</td>
+<td><a href="http://code.kx.com/wiki/Reference/MinusSymbol"><code>-</code></a></td>
+<td>minus</td>
+<td><a href="http://code.kx.com/wiki/Reference/Asterisk"><code>*</code></a></td>
+<td>times</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/PercentSymbol"><code>%</code></a></td>
+<td>divided by</td>
+<td><a href="http://code.kx.com/wiki/Reference/Semicolon"><code>;</code></a></td>
+<td>separator</td>
+<td><a href="http://code.kx.com/wiki/Reference/Backtick"><code>`</code></a></td>
+<td>symbol</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/QuestionSymbol"><code>?</code></a></td>
+<td>find/rand/select/exec</td>
+<td><a href="http://code.kx.com/wiki/Reference/DotSymbol"><code>.</code></a></td>
+<td>index/apply/<a href="http://code.kx.com/wiki/Reference/trap">trap</a></td>
+<td><a href="http://code.kx.com/wiki/Reference/AtSymbol"><code>@</code></a></td>
+<td>index/apply/<a href="http://code.kx.com/wiki/Reference/trap">trap</a></td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Caret"><code>^</code></a></td>
+<td>fill/coalesce</td>
+<td><a href="http://code.kx.com/wiki/Reference/DollarSign"><code>$</code></a></td>
+<td>cond/cast/enum..</td>
+<td><a href="http://code.kx.com/wiki/Reference/Tilde"><code>~</code></a></td>
+<td>match</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/NumberSign"><code>#</code></a></td>
+<td>take</td>
+<td><a href="http://code.kx.com/wiki/Reference/Underscore"><code>_</code></a></td>
+<td>drop/cut</td>
+<td><a href="http://code.kx.com/wiki/Reference/Comma"><code>,</code></a></td>
+<td>join</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/BangSymbol"><code>!</code></a></td>
+<td>dict/update/delete</td>
+<td><a href="http://code.kx.com/wiki/Reference/Bar"><code>|</code></a></td>
+<td>max</td>
+<td><a href="http://code.kx.com/wiki/Reference/Ampersand"><code>&amp;</code></a></td>
+<td>min</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Slash"><code>/</code></a></td>
+<td>comment/over/converge</td>
+<td><a href="http://code.kx.com/wiki/Reference/BackSlash"><code>\</code></a></td>
+<td>abort/scan/iterate</td>
+<td><a href="http://code.kx.com/wiki/Reference/BackSlashBackSlash"><code>\\</code></a></td>
+<td>quit</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/SlashColon"><code>/:</code></a></td>
+<td>each right</td>
+<td><a href="http://code.kx.com/wiki/Reference/BackSlashColon"><code>\:</code></a></td>
+<td>each left</td>
+<td><a href="http://code.kx.com/wiki/Reference/ApostropheColon"><code>':</code></a></td>
+<td>each prior/peach</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Apostrophe"><code>'</code></a></td>
+<td>signal/each both</td>
+<td><a href="http://code.kx.com/wiki/Reference/Colon"><code>:</code></a></td>
+<td>amend/return</td>
+<td><a href="http://code.kx.com/wiki/Reference/ColonColon"><code>::</code></a></td>
+<td>generic null/global amend</td>
+</tr>
+</tbody>
+</table>
+<h2 id="numbers">Numbers</h2>
+<table>
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/ZeroColon"><code>0:</code></a></td>
+<td>prepare/save/load text</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/OneColon"><code>1:</code></a></td>
+<td>binary/save binary</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/TwoColon"><code>2:</code></a></td>
+<td>dynamic load</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/One"><code>1</code></a>, <a href="http://code.kx.com/wiki/Reference/One"><code>-1</code></a></td>
+<td>write to stdout</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Two"><code>2</code></a>, <a href="http://code.kx.com/wiki/Reference/Two"><code>-2</code></a></td>
+<td>write to stderr</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Number"><code>n</code></a>, <a href="http://code.kx.com/wiki/Reference/Number"><code>-n</code></a></td>
+<td>send to handle</td>
+</tr>
+</tbody>
+</table>
+<h2 id="reserved-names">Reserved names</h2>
+<p>Reserved names denote primitive q constants, verbs and adverbs.</p>
+<table>
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td><a href="http://code.kx.com/wiki/Reference/abs" title="absolute value"><code>abs</code></a>, <a href="http://code.kx.com/wiki/Reference/acos" title="arc cosine"><code>acos</code></a>, <a href="http://code.kx.com/wiki/Reference/aj" title="as-of join"><code>aj</code></a>, <a href="http://code.kx.com/wiki/Reference/aj" title="as-of join"><code>aj0</code></a>, <a href="http://code.kx.com/wiki/Reference/all" title="all nonzero"><code>all</code></a>, <a href="http://code.kx.com/wiki/Reference/and" title="minimum"><code>and</code></a>, <a href="http://code.kx.com/wiki/Reference/any" title="any element is non-zero"><code>any</code></a>, <a href="http://code.kx.com/wiki/Reference/asc" title="ascending sort"><code>asc</code></a>, <a href="http://code.kx.com/wiki/Reference/asin" title="arc sine"><code>asin</code></a>, <a href="http://code.kx.com/wiki/Reference/asof" title="as-of verb"><code>asof</code></a>, <a href="http://code.kx.com/wiki/Reference/atan" title="arc tangent"><code>atan</code></a>, <a href="http://code.kx.com/wiki/Reference/attr" title="attributes"><code>attr</code></a>, <a href="http://code.kx.com/wiki/Reference/avg" title="arithmetic mean"><code>avg</code></a>, <a href="http://code.kx.com/wiki/Reference/avgs" title="running averages"><code>avgs</code></a></td>
+</tr>
+<tr>
+<td>B</td>
+<td><a href="http://code.kx.com/wiki/Reference/bin" title="binary search"><code>bin</code></a>, <a href="http://code.kx.com/wiki/Reference/bin" title="binary search right"><code>binr</code></a></td>
+</tr>
+<tr>
+<td>C</td>
+<td><a href="http://code.kx.com/wiki/Reference/ceiling" title="lowest integer above"><code>ceiling</code></a>, <a href="http://code.kx.com/wiki/Reference/cols" title="column names of a table"><code>cols</code></a>, <a href="http://code.kx.com/wiki/Reference/cor" title="correlation"><code>cor</code></a>, <a href="http://code.kx.com/wiki/Reference/cos" title="cosine"><code>cos</code></a>, <a href="http://code.kx.com/wiki/Reference/count" title="number of elements"><code>count</code></a>, <a href="http://code.kx.com/wiki/Reference/cov" title="function: statistical covariance"><code>cov</code></a>, <a href="http://code.kx.com/wiki/Reference/cross" title="cross product"><code>cross</code></a>, <a href="http://code.kx.com/wiki/Reference/csv" title="comma delimiter"><code>csv</code></a>, <a href="http://code.kx.com/wiki/Reference/cut" title="cut array into pieces"><code>cut</code></a></td>
+</tr>
+<tr>
+<td>D</td>
+<td><a href="http://code.kx.com/wiki/Reference/delete" title="delete rows or columns from a table"><code>delete</code></a>, <a href="http://code.kx.com/wiki/Reference/deltas" title="differences between consecutive pairs"><code>deltas</code></a>, <a href="http://code.kx.com/wiki/Reference/desc" title="descending sort"><code>desc</code></a>, <a href="http://code.kx.com/wiki/Reference/dev" title="standard deviation"><code>dev</code></a>, <a href="http://code.kx.com/wiki/Reference/differ" title="flag differences in consecutive pairs"><code>differ</code></a>, <a href="http://code.kx.com/wiki/Reference/distinct" title="unique elements"><code>distinct</code></a>, <a href="http://code.kx.com/wiki/Reference/div" title="integer division"><code>div</code></a>, <a href="http://code.kx.com/wiki/Reference/do" title="control word"><code>do</code></a>, <a href="http://code.kx.com/wiki/Reference/dsave" title="save global tables to disk"><code>dsave</code></a></td>
+</tr>
+<tr>
+<td>E</td>
+<td><a href="http://code.kx.com/wiki/Reference/each" title="apply to each element"><code>each</code></a>, <a href="http://code.kx.com/wiki/Reference/ej" title="equijoin"><code>ej</code></a>, <a href="http://code.kx.com/wiki/Reference/ema" title="exponentially-weighted moving average"><code>ema</code></a>, <a href="http://code.kx.com/wiki/Reference/enlist" title="arguments as a list"><code>enlist</code></a>, <a href="http://code.kx.com/wiki/Reference/eval" title="evaluate a parse tree"><code>eval</code></a>, <a href="http://code.kx.com/wiki/Reference/except" title="left argument without elements in rigt argument"><code>except</code></a>, <a href="http://code.kx.com/wiki/Reference/exec"><code>exec</code></a>, <a href="http://code.kx.com/wiki/Reference/exit" title="terminate q"><code>exit</code></a>, <a href="http://code.kx.com/wiki/Reference/exp" title="power of e"><code>exp</code></a></td>
+</tr>
+<tr>
+<td>F</td>
+<td><a href="http://code.kx.com/wiki/Reference/fby" title="filter-by"><code>fby</code></a>, <a href="http://code.kx.com/wiki/Reference/fills" title="forward-fill nulls"><code>fills</code></a>, <a href="http://code.kx.com/wiki/Reference/first" title="first element"><code>first</code></a>, <a href="http://code.kx.com/wiki/Reference/fkeys" title="foreign-key columns mapped to their tables"><code>fkeys</code></a>, <a href="http://code.kx.com/wiki/Reference/flip" title="transpose"><code>flip</code></a>, <a href="http://code.kx.com/wiki/Reference/floor" title="greatest integer less than argument"><code>floor</code></a></td>
+</tr>
+<tr>
+<td>G</td>
+<td><a href="http://code.kx.com/wiki/Reference/get" title="get a q data file"><code>get</code></a>, <a href="http://code.kx.com/wiki/Reference/getenv" title="value of an environment variable"><code>getenv</code></a>, <a href="http://code.kx.com/wiki/Reference/group" title="dictionary of distinct elements"><code>group</code></a>, <a href="http://code.kx.com/wiki/Reference/gtime" title="UTC timestamp"><code>gtime</code></a></td>
+</tr>
+<tr>
+<td>H</td>
+<td><a href="http://code.kx.com/wiki/Reference/hclose" title="close a file or process"><code>hclose</code></a>, <a href="http://code.kx.com/wiki/Reference/hcount" title="size of a file"><code>hcount</code></a>, <a href="http://code.kx.com/wiki/Reference/hdel" title="delete a file"><code>hdel</code></a>, <a href="http://code.kx.com/wiki/Reference/hopen" title="open a file"><code>hopen</code></a>, <a href="http://code.kx.com/wiki/Reference/hsym" title="convert symbol to filename or IP address"><code>hsym</code></a></td>
+</tr>
+<tr>
+<td>I</td>
+<td><a href="http://code.kx.com/wiki/Reference/iasc" title="indices of ascending sort"><code>iasc</code></a>, <a href="http://code.kx.com/wiki/Reference/idesc" title="indices of descending sort"><code>idesc</code></a>, <a href="http://code.kx.com/wiki/Reference/if" title="control word: conditional"><code>if</code></a>, <a href="http://code.kx.com/wiki/Reference/ij" title="verb: inner join"><code>ij</code></a>, <a href="http://code.kx.com/wiki/Reference/in" title="verb: membership"><code>in</code></a>, <a href="http://code.kx.com/wiki/Reference/insert" title="verb: append records to a table"><code>insert</code></a>, <a href="http://codinnere.kx.com/wiki/Reference/inter" title="verb: elements cmmon to both arguments"><code>inter</code></a>, <a href="http://code.kx.com/wiki/Reference/inv" title="function: matrix inverse"><code>inv</code></a></td>
+</tr>
+<tr>
+<td>K</td>
+<td><a href="http://code.kx.com/wiki/Reference/key" title="function: keys of a dictionary etc."><code>key</code></a>, <a href="http://code.kx.com/wiki/Reference/keys" title="function: names of a table's columns"><code>keys</code></a></td>
+</tr>
+<tr>
+<td>L</td>
+<td><a href="http://code.kx.com/wiki/Reference/last" title="function: last element"><code>last</code></a>, <a href="http://code.kx.com/wiki/Reference/like" title="verb: pattern matching"><code>like</code></a>, <a href="http://code.kx.com/wiki/Reference/lj" title="verb: left join"><code>lj</code></a>, <a href="http://code.kx.com/wiki/Reference/lj" title="verb: left join"><code>ljf</code></a>, <a href="http://code.kx.com/wiki/Reference/load" title="function: load binary data"><code>load</code></a>, <a href="http://code.kx.com/wiki/Reference/log" title="function: natural logarithm"><code>log</code></a>, <a href="http://code.kx.com/wiki/Reference/lower" title="function: lower case"><code>lower</code></a>, <a href="http://code.kx.com/wiki/Reference/lsq" title="verb: least squares -- matrix divide"><code>lsq</code></a>, <a href="http://code.kx.com/wiki/Reference/ltime" title="function: local timestamp"><code>ltime</code></a>, <a href="http://code.kx.com/wiki/Reference/ltrim" title="function remove leading spaces"><code>ltrim</code></a></td>
+</tr>
+<tr>
+<td>M</td>
+<td><a href="http://code.kx.com/wiki/Reference/mavg" title="verb: moving average"><code>mavg</code></a>, <a href="http://code.kx.com/wiki/Reference/max" title="function: maximum"><code>max</code></a>, <a href="http://code.kx.com/wiki/Reference/maxs" title="function: maxima of preceding elements"><code>maxs</code></a>, <a href="http://code.kx.com/wiki/Reference/mcount" title="verb: moving count"><code>mcount</code></a>, <a href="http://code.kx.com/wiki/Reference/md5" title="function: MD5 hash"><code>md5</code></a>, <a href="http://code.kx.com/wiki/Reference/mdev" title="verb: moving deviation"><code>mdev</code></a>, <a href="http://code.kx.com/wiki/Reference/med" title="function: median"><code>med</code></a>, <a href="http://code.kx.com/wiki/Reference/meta" title="function: metadata of a table"><code>meta</code></a>, <a href="http://code.kx.com/wiki/Reference/min" title="function: minimum"><code>min</code></a>, <a href="http://code.kx.com/wiki/Reference/mins" title="minim of preceding elements"><code>mins</code></a>, <a href="http://code.kx.com/wiki/Reference/mmax" title="verb: moving maxima"><code>mmax</code></a>, <a href="http://code.kx.com/wiki/Reference/mmin" title="verb: moving minima"><code>mmin</code></a>, <a href="http://code.kx.com/wiki/Reference/mmu" title="verb: matrix multiplication"><code>mmu</code></a>, <a href="http://code.kx.com/wiki/Reference/mod" title="verb: remainder"><code>mod</code></a>, <a href="http://code.kx.com/wiki/Reference/msum" title="verb: moving sum"><code>msum</code></a></td>
+</tr>
+<tr>
+<td>N</td>
+<td><a href="http://code.kx.com/wiki/Reference/neg" title="function: negate"><code>neg</code></a>, <a href="http://code.kx.com/wiki/Reference/next" title="function: next elements"><code>next</code></a>, <a href="http://code.kx.com/wiki/Reference/not" title="function: logical not"><code>not</code></a>, <a href="http://code.kx.com/wiki/Reference/null" title="function: is argument a null"><code>null</code></a></td>
+</tr>
+<tr>
+<td>O</td>
+<td><a href="http://code.kx.com/wiki/Reference/or" title="verb: maximum of arguments"><code>or</code></a>, <a href="http://code.kx.com/wiki/Reference/over" title="adverb: reduce an array with a function"><code>over</code></a></td>
+</tr>
+<tr>
+<td>P</td>
+<td><a href="http://code.kx.com/wiki/Reference/parse" title="function: parse a string"><code>parse</code></a>, <a href="http://code.kx.com/wiki/Reference/peach" title="adverb: parallel each"><code>peach</code></a>, <a href="http://code.kx.com/wiki/Reference/pj" title="verb: plus join"><code>pj</code></a>, <a href="http://code.kx.com/wiki/Reference/prd" title="function: product"><code>prd</code></a>, <a href="http://code.kx.com/wiki/Reference/prds" title="function: cumulative products"><code>prds</code></a>, <a href="http://code.kx.com/wiki/Reference/prev" title="function: previous elements"><code>prev</code></a>, <a href="http://code.kx.com/wiki/Reference/prior" title="adverb: apply function between each element and its predecessor"><code>prior</code></a></td>
+</tr>
+<tr>
+<td>R</td>
+<td><a href="http://code.kx.com/wiki/Reference/rand" title="¬function: random number"><code>rand</code></a>, <a href="http://code.kx.com/wiki/Reference/rank" title="function: grade up"><code>rank</code></a>, <a href="http://code.kx.com/wiki/Reference/ratios" title="function: ratos of consecutive pairs"><code>ratios</code></a>, <a href="http://code.kx.com/wiki/Reference/raze" title="function: join elements"><code>raze</code></a>, <a href="http://code.kx.com/wiki/Reference/read0" title="function: read file as lines"><code>read0</code></a>, <a href="http://code.kx.com/wiki/Reference/read1" title="function: read file as bytes"><code>read1</code></a>, <a href="http://code.kx.com/wiki/Reference/reciprocal" title="function: reciprocal of a number"><code>reciprocal</code></a>, <a href="http://code.kx.com/wiki/Reference/reval" title="function: variatiant of eval"><code>reval</code></a>, <a href="http://code.kx.com/wiki/Reference/reverse" title="function: reverse the order of elements"><code>reverse</code></a>, <a href="http://code.kx.com/wiki/Reference/rload" title="function: load a splayed table"><code>rload</code></a>, <a href="http://code.kx.com/wiki/Reference/rotate" title="verb: rotate elements"><code>rotate</code></a>, <a href="http://code.kx.com/wiki/Reference/rsave"><code>rsave</code></a>, <a href="http://code.kx.com/wiki/Reference/rtrim" title="function: remove trailing spaces"><code>rtrim</code></a></td>
+</tr>
+<tr>
+<td>S</td>
+<td><a href="http://code.kx.com/wiki/Reference/save" title="function: save global data to file"><code>save</code></a>, <a href="http://code.kx.com/wiki/Reference/scan" title="adverb: apply functions to successive elements"><code>scan</code></a>, <a href="http://code.kx.com/wiki/Reference/scov" title="verb: staistical covariance"><code>scov</code></a>, <a href="http://code.kx.com/wiki/Reference/sdev" title="function: statistical standard deviation"><code>sdev</code></a>, <a href="http://code.kx.com/wiki/Reference/select" title="select columns from a table"><code>select</code></a>, <a href="http://code.kx.com/wiki/Reference/set" title="verb: asign a value to a name"><code>set</code></a>, <a href="http://code.kx.com/wiki/Reference/setenv" title="verb: set an environment variable"><code>setenv</code></a>, <a href="http://code.kx.com/wiki/Reference/show" title="function: format to the console"><code>show</code></a>, <a href="http://code.kx.com/wiki/Reference/signum" title="function: sign of its argument/s"><code>signum</code></a>, <a href="http://code.kx.com/wiki/Reference/sin" title="function: sine"><code>sin</code></a>, <a href="http://code.kx.com/wiki/Reference/sqrt" title="function: square root"><code>sqrt</code></a>, <a href="http://code.kx.com/wiki/Reference/ss" title="fuction: string search"><code>ss</code></a>, <a href="http://code.kx.com/wiki/Reference/ssr" title="function: string search and replace"><code>ssr</code></a>, <a href="http://code.kx.com/wiki/Reference/string" title="function: cast to string"><code>string</code></a>, <a href="http://code.kx.com/wiki/Reference/sublist" title="verb: sublist of a list"><code>sublist</code></a>, <a href="http://code.kx.com/wiki/Reference/sum" title="function: sum of a list"><code>sum</code></a>, <a href="http://code.kx.com/wiki/Reference/sums" title="function: cumulative sums of a list"><code>sums</code></a>, <a href="http://code.kx.com/wiki/Reference/sv" title="verb: atom from a list"><code>sv</code></a>, <a href="http://code.kx.com/wiki/Reference/svar" title="function: statistical variance"><code>svar</code></a>, <a href="http://code.kx.com/wiki/Reference/system" title="function: execute system command"><code>system</code></a></td>
+</tr>
+<tr>
+<td>T</td>
+<td><a href="http://code.kx.com/wiki/Reference/tables" title="function: sorted list of tables"><code>tables</code></a>, <a href="http://code.kx.com/wiki/Reference/tan" title="function: tangent"><code>tan</code></a>, <a href="http://code.kx.com/wiki/Reference/til" title="function: integers up to x"><code>til</code></a>, <a href="http://code.kx.com/wiki/Reference/trim" title="function: remove leading and trailing spaces"><code>trim</code></a>, <a href="http://code.kx.com/wiki/Reference/type" title="function: data type"><code>type</code></a></td>
+</tr>
+<tr>
+<td>U</td>
+<td><a href="http://code.kx.com/wiki/Reference/uj" title="verb: union join"><code>uj</code></a>, <a href="http://code.kx.com/wiki/Reference/ungroup" title="function: flattened table"><code>ungroup</code></a>, <a href="http://code.kx.com/wiki/Reference/union" title="verb: distinct elements of combination of two lists"><code>union</code></a>, <a href="http://code.kx.com/wiki/Reference/update" title="insert or replace table records"><code>update</code></a>, <a href="http://code.kx.com/wiki/Reference/upper" title="function: upper-case"><code>upper</code></a>, <a href="http://code.kx.com/wiki/Reference/upsert" title="add table records"><code>upsert</code></a></td>
+</tr>
+<tr>
+<td>V</td>
+<td><a href="http://code.kx.com/wiki/Reference/value" title="function: value of a variable or dictionary key; value of an executed sting"><code>value</code></a>, <a href="http://code.kx.com/wiki/Reference/var" title="function: statistical variance"><code>var</code></a>, <a href="http://code.kx.com/wiki/Reference/view" title="function: definition of a dependency"><code>view</code></a>, <a href="http://code.kx.com/wiki/Reference/views" title="function: list of defined views"><code>views</code></a>, <a href="http://code.kx.com/wiki/Reference/vs" title="verb: list from an atom"><code>vs</code></a></td>
+</tr>
+<tr>
+<td>W</td>
+<td><a href="http://code.kx.com/wiki/Reference/wavg" title="verb: weighted average"><code>wavg</code></a>, <a href="http://code.kx.com/wiki/Reference/where" title="function: replicated elements"><code>where</code></a>, <a href="http://code.kx.com/wiki/Reference/while" title="control word"><code>while</code></a>, <a href="http://code.kx.com/wiki/Reference/within" title="verb: flag elements within range"><code>within</code></a>, <a href="http://code.kx.com/wiki/Reference/wj" title="function: window join"><code>wj</code></a>, <a href="http://code.kx.com/wiki/Reference/wj" title="function: window join"><code>wj1</code></a>, <a href="http://code.kx.com/wiki/Reference/wsum" title="verb: weighted sum"><code>wsum</code></a>, <a href="http://code.kx.com/wiki/Reference/wj" title="function: substrate of wj and wj1"><code>ww</code></a></td>
+</tr>
+<tr>
+<td>X</td>
+<td><a href="http://code.kx.com/wiki/Reference/xasc" title="verb: table sorted ascending by columns"><code>xasc</code></a>, <a href="http://code.kx.com/wiki/Reference/xbar" title="verb: interval bar"><code>xbar</code></a>, <a href="http://code.kx.com/wiki/Reference/xcol" title="verb: rename table columns"><code>xcol</code></a>, <a href="http://code.kx.com/wiki/Reference/xcols" title="verb: re-order table columns"><code>xcols</code></a>, <a href="http://code.kx.com/wiki/Reference/xdesc" title="verb: table sorted decending by columns"><code>xdesc</code></a>, <a href="http://code.kx.com/wiki/Reference/xexp" title="verb: raised to a power"><code>xexp</code></a>, <a href="http://code.kx.com/wiki/Reference/xgroup" title="verb: table grouped by keys"><code>xgroup</code></a>, <a href="http://code.kx.com/wiki/Reference/xkey" title="verb: set primary keys of a table"><code>xkey</code></a>, <a href="http://code.kx.com/wiki/Reference/xlog" title="base-x logarithm"><code>xlog</code></a>, <a href="http://code.kx.com/wiki/Reference/xprev" title="verb: previous elements"><code>xprev</code></a>, <a href="http://code.kx.com/wiki/Reference/xrank" title="verb: items assigned to buckets"><code>xrank</code></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="namespaces">Namespaces</h2>
+<p><strong>Watch out</strong> <em>All</em> single-letter namespaces (both upper- and lower-case) are reserved for Kx use and should not be used to contain user-written code or data.</p>
+<h3 id="h">.h</h3>
+<p>for functions in the <code>.h</code> namespace see the <a href="http://code.kx.com/wiki/Doth">.h unreference</a></p>
+<h3 id="q">.Q</h3>
+<p>for functions in the <code>.Q</code> namespace see the <a href="http://code.kx.com/wiki/DotQ">.Q unreference</a></p>
+<h3 id="z">.z</h3>
+<table>
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdota"><code>.z.a</code></a></td>
+<td>address</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotac"><code>.z.ac</code></a></td>
+<td>auth from cookie</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotb"><code>.z.b</code></a></td>
+<td>dependencies</td>
+<td><a href="../Releases/ChangesIn2.7#IPCMessageValidator" title="wikilink"><code>.z.bm</code></a></td>
+<td>bad message</td>
+</tr>
+<tr>
+<td><code>.z.c</code></td>
+<td>physical core count</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdote"><code>.z.e</code></a></td>
+<td>tls connection status</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotexit"><code>.z.exit</code></a></td>
+<td>action on exit</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotf"><code>.z.f</code></a></td>
+<td>file</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdoth"><code>.z.h</code></a></td>
+<td>host</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdoti"><code>.z.i</code></a></td>
+<td>PID</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotk"><code>.z.k</code></a></td>
+<td>release date</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotK"><code>.z.K</code></a></td>
+<td>version</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotl"><code>.z.l</code></a></td>
+<td>license</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotn"><code>.z.n</code></a></td>
+<td>gmt (timespan)</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotN"><code>.z.N</code></a></td>
+<td>local (timespan)</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdoto"><code>.z.o</code></a></td>
+<td>OS</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotp"><code>.z.p</code></a></td>
+<td>gmt (timestamp)</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotP"><code>.z.P</code></a></td>
+<td>local (timestamp)</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotpc"><code>.z.pc</code></a></td>
+<td>close</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotpg"><code>.z.pg</code></a></td>
+<td>get</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotpd"><code>.z.pd</code></a></td>
+<td>peach handles</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotph"><code>.z.ph</code></a></td>
+<td>http get</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotpi"><code>.z.pi</code></a></td>
+<td>input</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotpm"><code>.z.pm</code></a></td>
+<td>http OPTIONS method</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotpo"><code>.z.po</code></a></td>
+<td>open</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotpp"><code>.z.pp</code></a></td>
+<td>http post</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotps"><code>.z.ps</code></a></td>
+<td>set</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotpw"><code>.z.pw</code></a></td>
+<td>validate user</td>
+</tr>
+<tr>
+<td><code>.z.q</code></td>
+<td>quiet mode</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdots"><code>.z.s</code></a></td>
+<td>self</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotts"><code>.z.ts</code></a></td>
+<td>timer</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotu"><code>.z.u</code></a></td>
+<td>userid</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotvs"><code>.z.vs</code></a></td>
+<td>value set</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotw"><code>.z.w</code></a></td>
+<td>handle</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotwc"><code>.z.wc</code></a></td>
+<td>websocket close</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotwo"><code>.z.wo</code></a></td>
+<td>websocket open</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotW"><code>.z.W</code></a></td>
+<td>handles</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotws"><code>.z.ws</code></a></td>
+<td>websockets</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotx"><code>.z.x</code></a></td>
+<td>argv</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotX"><code>.z.X</code></a></td>
+<td>raw command line</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotz"><code>.z.z</code></a></td>
+<td>gmt time (datetime)</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotZ"><code>.z.Z</code></a></td>
+<td>local time (datetime)</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Releases/ChangesIn2.4#a.z.t.z.d"><code>.z.[tTdD]</code></a></td>
+<td>time/date shortcuts</td>
+<td><a href="http://code.kx.com/wiki/Reference/dotzdotzd"><code>.z.zd</code></a></td>
+<td>zip defaults</td>
+</tr>
+</tbody>
+</table>
+<h2 id="command-line-options-and-system-commands">Command-line options and system commands</h2>
+<p>Summaries of <a href="http://code.kx.com/wiki/Reference/Cmdline">command-line options</a> and <a href="http://code.kx.com/wiki/Reference/SystemCommands">system commands</a></p>
+<table>
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Sysa"><code>\a</code></a></td>
+<td>tables</td>
+<td><a href="http://code.kx.com/wiki/Reference/Cmdlineb"><code>-b</code></a></td>
+<td>block client write access</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Sysb"><code>\b</code></a></td>
+<td>views</td>
+<td><code>\B</code></td>
+<td>pending views</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Cmdlinec"><code>-c</code></a>, <a href="http://code.kx.com/wiki/Reference/Syscmdc"><code>\c</code></a></td>
+<td>q console size</td>
+<td><a href="http://code.kx.com/wiki/Reference/CmdlineC"><code>-C</code></a>, <code>\C</code></td>
+<td>web console size</td>
+</tr>
+<tr>
+<td><code>\cd</code></td>
+<td>current directory</td>
+<td><code>\d</code></td>
+<td>namespace</td>
+</tr>
+<tr>
+<td><code>\e</code></td>
+<td>error trap clients</td>
+<td><a href="http://code.kx.com/wiki/Cookbook/SSL#TLS_Server_Mode"><code>-E</code></a></td>
+<td>TLS server mode</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Sysf"><code>\f</code></a></td>
+<td>functions</td>
+<td><code>-g</code>, <code>\g</code></td>
+<td>garbage collect</td>
+</tr>
+<tr>
+<td><code>-[lL]</code></td>
+<td>log updates</td>
+<td><a href="http://code.kx.com/wiki/Reference/SystemCommands#.5Cl_name_-_load_file_or_directory"><code>\l</code></a></td>
+<td>load</td>
+</tr>
+<tr>
+<td><code>-o</code>, <code>\o</code></td>
+<td>local time offset</td>
+<td><code>-p</code>, <code>\p</code></td>
+<td>port</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/CmdlineP"><code>-P</code></a>, <code>\P</code></td>
+<td>float precision</td>
+<td><a href="http://code.kx.com/wiki/Reference/Cmdlineq"><code>-q</code></a></td>
+<td>quiet</td>
+</tr>
+<tr>
+<td><code>-r</code></td>
+<td>replicate from host/post</td>
+<td><code>\r</code></td>
+<td>replication master</td>
+</tr>
+<tr>
+<td><code>\r</code></td>
+<td>rename file</td>
+<td><code>-s</code></td>
+<td>use slaves</td>
+</tr>
+<tr>
+<td><code>\s</code></td>
+<td>number of slaves</td>
+<td><code>-S</code>, <code>\S</code></td>
+<td>prng seed</td>
+</tr>
+<tr>
+<td><code>\t</code></td>
+<td>time expression</td>
+<td><code>-t</code>, <code>\t</code></td>
+<td>timer</td>
+</tr>
+<tr>
+<td><code>-T</code>, <code>\T</code></td>
+<td>timeout</td>
+<td><code>\ts</code></td>
+<td>time and space of expression</td>
+</tr>
+<tr>
+<td><code>-u 1</code></td>
+<td>disable system exits</td>
+<td><code>\u</code></td>
+<td>reload password file</td>
+</tr>
+<tr>
+<td><code>-[uU]</code></td>
+<td>usr:pwd file</td>
+<td><a href="http://code.kx.com/wiki/Reference/Sysv"><code>\v</code></a></td>
+<td>variables</td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/SystemCommands#.5Cw_.5B0.5D_-_workspace"><code>-w</code>, <code>\w</code></a></td>
+<td>workspace size</td>
+<td><code>-W</code>, <code>\W</code></td>
+<td>week offset</td>
+</tr>
+<tr>
+<td><code>\x</code></td>
+<td>expunge handler</td>
+<td><a href="http://code.kx.com/wiki/JB:QforMortals2/commands_and_system_variables#Date_Format_.28-z.29"><code>-z</code>, <code>\z</code></a></td>
+<td>date format</td>
+</tr>
+<tr>
+<td><code>\1</code>, <code>\2</code></td>
+<td>redirect stdout/stderr</td>
+<td><code>\_</code></td>
+<td>hide q code</td>
+</tr>
+</tbody>
+</table>
+<h2 id="other-reference-pages">Other reference pages</h2>
+<table>
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Adverb">adverbs</a></td>
+<td><a href="http://code.kx.com/wiki/Reference/AssocDict">associations and dictionaries</a></td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/AtomList">atoms and lists</a></td>
+<td><a href="http://code.kx.com/wiki/Reference/BooleanShiftsScans">boolean shifts and scans</a></td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/BangSymbolInternalFunction"><code>!</code> internal functions</a></td>
+<td><a href="http://code.kx.com/wiki/Reference/ConsoleSize">console size</a></td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Datatypes">datatypes</a></td>
+<td><a href="http://code.kx.com/wiki/Reference/DisplayPrecision">display precision</a></td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Errors">common errors</a></td>
+<td><a href="http://code.kx.com/wiki/Reference/Function">functions</a></td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Grammar">grammar</a></td>
+<td><a href="http://code.kx.com/wiki/Reference/glossary">glossary</a></td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Qidioms">idioms</a> &ndash; after <a href="https://en.wikipedia.org/wiki/Eugene_McDonnell">Eugene McDonnell</a>&rsquo;s k idioms</td>
+<td><a href="http://code.kx.com/wiki/Reference/ipcprotocol">IPC protocol</a></td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/joins">joins</a></td>
+<td><a href="http://code.kx.com/wiki/Reference/language">language</a></td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Nouns">nouns</a></td>
+<td><a href="http://code.kx.com/wiki/Reference/pardottxt"><code>par.txt</code></a></td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/parse_tree">parse trees</a></td>
+<td><a href="http://code.kx.com/wiki/Reference/Pivot">pivot tables</a></td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Syntax">syntax</a></td>
+<td><a href="http://code.kx.com/wiki/Reference/Table">table</a></td>
+</tr>
+<tr>
+<td><a href="http://code.kx.com/wiki/Reference/Verb">verbs</a></td>
+<td><a href="http://code.kx.com/wiki/Reference/Views">views</a></td>
+</tr>
+</tbody>
+</table></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

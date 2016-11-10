@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Kx Systems">
+        <link rel="canonical" href="http://5jt.github.io/developer/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>Developer - code.kx.com</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">code.kx.com</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../learn/">Get started</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../reference/">Reference</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Developer</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../library/">Library</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../reference/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../library/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+                    <li>
+                        <a href="https://github.com/5jt/kx">
+                            
+                                <i class="fa fa-github"></i>
+                            
+                            GitHub
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#basics">Basics</a></li>
+        
+    
+        <li class="main "><a href="#briefs">Briefs</a></li>
+        
+    
+        <li class="main "><a href="#big-data">Big Data</a></li>
+        
+    
+        <li class="main "><a href="#tick">Tick</a></li>
+        
+    
+        <li class="main "><a href="#how-tos">How-tos</a></li>
+        
+    
+        <li class="main "><a href="#foreign-interfaces">Foreign interfaces</a></li>
+        
+            <li><a href="#interprocess-communication-ipc">Interprocess communication (IPC)</a></li>
+        
+            <li><a href="#exxeleron-repositories-on-github">Exxeleron repositories on GitHub</a></li>
+        
+    
+        <li class="main "><a href="#github-repositories">GitHub repositories</a></li>
+        
+    
+        <li class="main "><a href="#utilities">Utilities</a></li>
+        
+    
+        <li class="main "><a href="#miscellaneous">Miscellaneous</a></li>
+        
+    
+        <li class="main "><a href="#release-notes-change-list">Release notes / change list</a></li>
+        
+    
+        <li class="main "><a href="#versions-new-features">Versions &ndash; new features</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h2 id="basics">Basics</h2>
+<ul>
+<li><a href="http://code.kx.com/wiki/Cookbook/GettingStarted">Interactive help</a></li>
+<li><a href="http://code.kx.com/wiki/FAQ">Frequently-asked questions</a> from the listbox</li>
+<li><a href="http://code.kx.com/wiki/Cookbook/UsingKdb">Using kdb+</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/ClientServer">Client-server programming</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/CustomWeb">Customising the kdb+ webserver</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/Daemon">Daemonizing q on Linux</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/PerformanceTips">Performance tips</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/ProgrammingExamples">Programming examples</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/ProgrammingIdioms">Programming idioms</a></li>
+<li><a href="http://code.kx.com/wiki/BugReporting">Reporting bugs in Kx products</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/QAsWindowsService">Running q as service on Windows</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/MoreAboutTables">More about tables</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/UnitTesting">Unit testing</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/Logging">Using disk logging</a></li>
+</ul>
+<h2 id="briefs">Briefs</h2>
+<p>The Developer Briefs originally appeared as the <em>q for Gods</em> series of white papers from <a href="http://firstderivatives.com">First Derivatives</a>.</p>
+<ul>
+<li><a href="../db/DB_A_Natural_Query_Interface_for_Distribution_Systems/DB_A_Natural_Query_Interface_for_Distribution_Systems.pdf">A natural query interface for distribution systems</a></li>
+<li><a href="../db/DB_An_Introduction_to_Graphical_Interfaces_for_kdb+_using_c#/DB_An_Introduction_to_Graphical_Interfaces_for_kdb+_using_c#.pdf">An introduction to graphical interfaces for kdb+ using C#</a></li>
+<li><a href="../db/DB_An_Introduction_to_Neural_Networks_with_kdb+/DB_An_Introduction_to_Neural_Networks_with_kdb+.pdf">An introduction to neural networks with kdb+</a></li>
+<li><a href="../db/DB_Building_Realtime_tick_subscribers/DB_Building_Realtime_tick_subscribers.pdf">Building realtime tick subscribers</a></li>
+<li><a href="../db/DB_Columnar_Database_and_Query_Optimization/DB_Columnar_Database_and_Query_Optimization.pdf">Columnar database and query optimization</a></li>
+<li><a href="../db/DB_Common_Design_Principles_for_kdb+_Gateways/DB_Common_Design_Principles_for_kdb+_Gateways.pdf">Common design principles for kdb+ gateways</a></li>
+<li><a href="../db/DB_Compression_in_kdb+/DB_Compression_in_kdb+.pdf">Compression in kdb+</a></li>
+<li><a href="../db/DB_Data_Recovery_for_kdb+_tick/DB_Data_Recovery_for_kdb+_tick.pdf">Data recovery for kdb+ tick</a></li>
+<li><a href="../db/DB_Efficient_Use_of_Adverbs/DB_Efficient_Use_of_Adverbs.pdf">Efficient use of adverbs</a></li>
+<li><a href="../db/DB_Intraday_Writedown_Solutions/DB_Intraday_Writedown_Solutions.pdf">Intraday writedown solutions</a></li>
+<li><a href="../db/DB_Introduction_to_Strategy_Back-Testing_in_q/DB_Introduction_to_Strategy_Back-Testing_in_q.pdf">introduction to strategy back testing in q</a></li>
+<li><a href="../db/DB_kdb+_and_FIX_Messaging/DB_kdb+_and_FIX_Messaging.pdf">Kdb+ and FIX messaging</a></li>
+<li><a href="../db/DB_kdb+_and_WebSockets/DB_kdb+_and_WebSockets.pdf">Kdb+ and WebSockets</a></li>
+<li><a href="../db/DB_kdb+_data_management_sample_customisation_techniques/DB_kdb+_data_management_sample_customisation_techniques.pdf">Kdb+ data-management sample customisation techniques</a></li>
+<li><a href="../db/DB_kdb+_Query_Scaling/DB_kdb+_Query_Scaling.pdf">Kdb+ query scaling</a></li>
+<li><a href="../db/DB_kdb+tick_profiling_for_throughput_optimization/DB_kdb+tick_profiling_for_throughput_optimization.pdf">Kdb+tick profiling for throughput optimization</a></li>
+<li><a href="../db/DB_Marketing_Fragmentation_a_kdb+_Framework_for_Multiple_Liquid_Source/DB_Marketing_Fragmentation_a_kdb+_Framework_for_Multiple_Liquid_Source.pdf">Marketing Fragmentation: a kdb+ framework for Multiple Liquid Source</a></li>
+<li><a href="../db/DB_Multi_Partitioned_kdb+_Databases_An_equity_options_case_study/DB_Multi_Partitioned_kdb+_Databases_An_equity_options_case_study.pdf">Multi-partitioned kdb+ databases: an equity options case study</a></li>
+<li><a href="../db/DB_Multithreading_in_kdb+_performance_optimisations_and_use_cases/DB_Multithreading_in_kdb+_performance_optimisations_and_use_cases.pdf">Multithreading in kdb+: performance optimisations and use cases</a></li>
+<li><a href="../db/DB_Order_Book_a_kdb+_Intra-Day_Storage_and_Access_Methodology/DB_Order_Book_a_kdb+_Intra-Day_Storage_and_Access_Methodology.pdf">Order Book: a kdb+ intra-day storage and access methodology</a></li>
+<li><a href="../db/DB_Parse_Trees_and_Functional_Forms/DB_Parse_Trees_and_Functional_Forms.pdf">Parse trees and functional forms</a></li>
+<li><a href="../db/DB_Permissions_with_kdb+/DB_Permissions_with_kdb+.pdf">Permissions with kdb+</a></li>
+<li><a href="../db/DB_Query_Routing_a_kdb+_Framework_for_a_Scalable_Load_Balanced_System/DB_Query_Routing_a_kdb+_Framework_for_a_Scalable_Load_Balanced_System.pdf">Query Routing: a kdb+ framework for a scalable load-balanced system</a></li>
+<li><a href="../db/DB_Sample_Aggregation_Engine_for_Market_Depth/DB_Sample_Aggregation_Engine_for_Market_Depth.pdf">Sample aggregation engine for market depth</a></li>
+<li><a href="../db/DB_Surveillance_Techniques_to_Effectively_Monitor_Algo_and_High_Frequency_Trading/DB_Surveillance_Techniques_to_Effectively_Monitor_Algo_and_High_Frequency_Trading.pdf">Surveillance techniques to effectively monitor algo and high-frequency trading</a></li>
+<li><a href="../db/DB_Temporal_Data_A_kdb+_Framework_for_Corporate_Actions/DB_Temporal_Data_A_kdb+_Framework_for_Corporate_Actions.pdf">Temporal Data: a kdb+ framework for corporate actions</a></li>
+<li><a href="../db/DB_The_Application_of_Foreign_Keys_and_Linked_Columns_in_kdb+/DB_The_Application_of_Foreign_Keys_and_Linked_Columns_in_kdb+.pdf">The application of foreign keys and linked columns in kdb+</a></li>
+<li><a href="../db/DB_Time_Series_Simplification_in_kdb+_a_Method_for_Dynamically_Shrinking_Big_Data/DB_Time_Series_Simplification_in_kdb+_a_Method_for_Dynamically_Shrinking_Big_Data.pdf">Time-series simplification in kdb+: a method for dynamically shrinking Big Data</a></li>
+<li><a href="../db/DB_Transaction_Cost_Analysis_Using_kdb+/DB_Transaction_Cost_Analysis_Using_kdb+.pdf">Transaction-cost analysis using kdb+</a></li>
+</ul>
+<h2 id="big-data">Big Data</h2>
+<ul>
+<li><a href="http://code.kx.com/wiki/Cookbook/SplayedSchemaChange">Changing the scheme of a splayed table</a></li>
+<li><a href="http://code.kx.com/wiki/Reference/pardottxt">Database partitioning with par.txt</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/LoadBalancing">A load-balancing server</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/Bcp">Loading and exporting with bcp</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/LoadingFromLargeFiles">Loading large CSV files</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/SplayedTables">Splayed tables</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/LoadingFromLargeFilesAndSplaying">Splaying large CSV files</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/TemporalData">Temporal data</a></li>
+</ul>
+<h2 id="tick">Tick</h2>
+<ul>
+<li><a href="http://code.kx.com/wiki/Startingkdbplus/tick">Basic example of kdb+tick</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/publishsubscribe">Publish and subscribe</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/tickdifferent">Different ways of working with kdb+tick</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/kdb+chainedtick">Chained tickerplant and rdb for kdb+tick</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/w.q">Write-only alternative to rdb for kdb+tick</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/alternateInMemLayouts">Alternative in-memory layouts</a></li>
+<li><a href="http://code.kx.com/wsvn/code/kx/kdb%2B/tick/">Utility scripts and example schemas (some examples may need to change time types to timespan)</a></li>
+</ul>
+<h2 id="how-tos">How-tos</h2>
+<ul>
+<li><a href="http://code.kx.com/wiki/Cookbook/Callbacks">Callbacks in q</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/FloatPrecision">Float precision and equality</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/LinkingColumns">Linking columns</a></li>
+</ul>
+<h2 id="foreign-interfaces">Foreign interfaces</h2>
+<ul>
+<li><a href="http://kpnet.codeplex.com/">Managed ADO.Net provider for kdb+</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/InterfacingWithC">Interfacing with C</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/ExtendingWithC">Extending with C</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/InterfacingWithCSharp">Interfacing with C#</a></li>
+<li><a href="http://www.qkdt.org/features.html">Using kdb+ with Eclipse</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/IntegratingWithExcel">Integrating With Excel</a></li>
+<li><a href="https://github.com/felixlungu/qexpat">Interfacing with the Expat XML parser</a></li>
+<li><a href="https://github.com/kimtang/c.fs">Interfacing with F#</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/InterfacingWithFlex">Interfacing with Flex</a></li>
+<li><a href="https://github.com/kxcontrib/jludlow/blob/master/docs/fortran.pdf?format=raw">Integrating with Fortran</a></li>
+<li><a href="https://github.com/sv/kdbgo">Interfacing with Go</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/InterfacingWithGPUs">Interfacing with GPUs</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/IntegratingWithJ">Integrating with J</a> See Also <a href="http://www.jsoftware.com/jwiki/Interfaces">Jwiki/Interfaces</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/InterfacingWithJava">Interfacing with Java</a></li>
+<li><a href="http://code.kx.com/wiki/http://kx.com/q/c/c.js">Interfacing with Javascript</a> and <a href="../Cookbook/Websocket">Websockets</a></li>
+<li><a href="http://althenia.net/qml">Interfacing With LAPACK, Cephes and FDLIBM</a></li>
+<li><a href="https://github.com/geocar/qlua">Interfacing with Lua</a></li>
+<li><a href="http://code.kx.com/wsvn/code/kx/kdb%2B/c/other/qmathematica.txt">Mathematica</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/IntegratingWithMatlab">Integrating with Matlab</a></li>
+<li><a href="https://github.com/geocar/qnode">Interfacing with NodeJS</a></li>
+<li><a href="https://github.com/cinovo/node-q">Intferacing with Node.js</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/ODBC">Interfacing with ODBC</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/InterfacingWithPerl">Interfacing with Perl</a></li>
+<li><a href="https://github.com/geocar/qphp">Interfacing with PHP</a></li>
+<li><a href="http://code.kx.com/wiki/Contrib/PyQ">Integrating with Python</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/IntegratingWithR">Integrating with R</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/InterfacingWithScala">Interfacing with Scala</a></li>
+</ul>
+<h3 id="interprocess-communication-ipc">Interprocess communication (IPC)</h3>
+<ul>
+<li><a href="http://code.kx.com/wiki/Startingkdbplus/ipc">Starting kdb+: IPC</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/IPCInANutshell">IPC in a nutshell</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/InterfacingWithC#Connecting_to_a_Kdb.2B_server">The C IPC interface</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/Callbacks">Async callbacks</a></li>
+<li><a href="http://code.kx.com/wiki/Reference/hopen#examples"><code>hopen</code> examples</a></li>
+<li><a href="http://code.kx.com/wiki/Reference/ipcprotocol">IPC protocol and message format</a></li>
+<li><a href="http://code.kx.com/wiki/JB:QforMortals2/i_o#Interprocess_Communication">Q4M2 IPC</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/Server_Calling_the_Client">Server calling the client</a></li>
+<li><a href="http://code.kx.com/wiki/Contrib/UsingDotz">Using Modified <code>.z</code> functions to trace, monitor and control execution</a></li>
+</ul>
+<h3 id="exxeleron-repositories-on-github">Exxeleron repositories on GitHub</h3>
+<ul>
+<li><a href="https://github.com/exxeleron/enterprise-components">enterprise-components</a> Enterprise Components</li>
+<li><a href="https://github.com/exxeleron/qErlang/">qErlang</a> Erlang interface</li>
+<li><a href="https://github.com/exxeleron/qJava">qJava</a> Java interface</li>
+<li><a href="https://github.com/exxeleron/qPython">qPython</a> Pure Python interface</li>
+<li><a href="https://github.com/exxeleron/qSharp">qSharp</a> C# interface</li>
+<li><a href="https://github.com/exxeleron/qXL">qXL</a> Excel Interface</li>
+</ul>
+<h2 id="github-repositories">GitHub repositories</h2>
+<p>See the <a href="https://kxsys.github.io/">kdb+ GitHub repository index</a>.</p>
+<h2 id="utilities">Utilities</h2>
+<ul>
+<li><a href="http://github.com/CharlesSkelton/babel">Babel for kdb+</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/cmdAlternative"><code>cmd.exe</code> replacement for Windows users</a></li>
+<li><a href="http://code.kx.com/wiki/Contrib/CompactingHdbSym">Compacting hdb sym enum files</a></li>
+<li><a href="http://code.kx.com/wiki/Contrib/UsingDotz">dotz, using modified <code>.z</code> functions</a></li>
+<li><a href="http://code.kx.com/wiki/Contrib/QbyExamples">Q by examples</a></li>
+<li><a href="http://code.kx.com/wiki/Contrib/QCompared">Q compared to other languages</a></li>
+<li><a href="http://github.com/CharlesSkelton/studio">Studio for kdb+</a></li>
+<li><a href="http://code.kx.com/wiki/Contrib">User-contributed code</a></li>
+</ul>
+<h2 id="miscellaneous">Miscellaneous</h2>
+<ul>
+<li><a href="http://code.kx.com/wiki/Cookbook/AuthenticationAndAccessControl">Authentication and access control</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/BloombergFeedHandler">Bloomberg feed handler</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/ComparisonTolerance">Comparison tolerance</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/CorporateActions">Corporate actions</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/FileCompression">File compression</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/Firewalling_Notes">Firewalling notes</a> (before running kdb+ on the Internet)</li>
+<li><a href="http://code.kx.com/wiki/Cookbook/Geospatial">Geospatial</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/kdb+inetd">Kdb+ under inetd/xinetd</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/log4q">log4q</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/MultithreadedInputMode">Multithreaded input mode</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/NamedPipes">Named pipes</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/Production_Notes">Production notes</a></li>
+<li><a href="../Cookbook/regex">Regular Expressions (regex)</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/SSL">Secure Sockets Layer (SSL) / Transport Layer Security (TLS)</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/Timezones">Timezones and daylight saving time</a></li>
+<li><a href="http://code.kx.com/wiki/Cookbook/Unicode">Unicode</a></li>
+</ul>
+<h2 id="release-notes-change-list">Release notes / change list</h2>
+<ul>
+<li>Full change list at <a href="http://downloads.kx.com">downloads.kx.com</a></li>
+</ul>
+<h2 id="versions-new-features">Versions &ndash; new features</h2>
+<ul>
+<li><a href="http://code.kx.com/wiki/Releases/ChangesIn2.4">v2.4</a></li>
+<li><a href="http://code.kx.com/wiki/Releases/ChangesIn2.5">v2.5</a></li>
+<li><a href="http://code.kx.com/wiki/Releases/ChangesIn2.6">v2.6</a></li>
+<li><a href="http://code.kx.com/wiki/Releases/ChangesIn2.7">v2.7</a></li>
+<li><a href="http://code.kx.com/wiki/Releases/ChangesIn2.8">v2.8</a></li>
+<li><a href="http://code.kx.com/wiki/Releases/ChangesIn3.0">v3.0</a></li>
+<li><a href="http://code.kx.com/wiki/Releases/ChangesIn3.1">v3.1</a></li>
+<li><a href="http://code.kx.com/wiki/Releases/ChangesIn3.2">v3.2</a></li>
+<li><a href="http://code.kx.com/wiki/Releases/ChangesIn3.3">v3.3</a></li>
+<li><a href="http://code.kx.com/wiki/Releases/ChangesIn3.4">v3.4</a></li>
+</ul></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
